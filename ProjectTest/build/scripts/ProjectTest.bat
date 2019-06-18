@@ -82,7 +82,7 @@ set CMD_LINE_ARGS=%*
 set CLASSPATH=%APP_HOME%\lib\ProjectTest.jar
 
 @rem Execute ProjectTest
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %PROJECT_TEST_OPTS%  -classpath "%CLASSPATH%" myFirstProgram %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %PROJECT_TEST_OPTS%  -classpath "%CLASSPATH%" MyFirstProgram %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell
